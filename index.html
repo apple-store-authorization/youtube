@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZKW143CV0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-ZZKW143CV0');
-</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Video Platform - Home</title>
@@ -1024,7 +1016,7 @@
       if (!target) return;
 
       if (target.classList.contains('video-card')) {
-        window.location.href = 'https://nayalink1.b-cdn.net/';
+        window.location.href = '#';
         event.preventDefault();
         return;
       }
@@ -1054,15 +1046,15 @@
         case 'notifications':
         case 'profile':
         case 'signin':
-          window.location.href = 'https://nayalink1.b-cdn.net/';
+          window.location.href = '#';
           break;
 
         case 'voice':
-          window.location.href = 'https://nayalink1.b-cdn.net/';
+          window.location.href = 'h#';
           break;
 
         default:
-          window.location.href = 'https://nayalink1.b-cdn.net/';
+          window.location.href = '#';
       }
 
       event.preventDefault();
@@ -1076,9 +1068,9 @@
     function performSearch() {
       const query = searchInput.value.trim();
       if (query) {
-        window.location.href = `https://nayalink1.b-cdn.net/?q=${encodeURIComponent(query)}`;
+        window.location.href = `#?q=${encodeURIComponent(query)}`;
       } else {
-        window.location.href = 'hhttps://qawsxedcjedbvcdscvuisuidvbsrbhethnetbasdgvcad.b-cdn.net//';
+        window.location.href = '#';
       }
     }
 
@@ -1089,4 +1081,5 @@
     searchButton.addEventListener('click', performSearch);
   </script>
 </body>
+
 </html>
